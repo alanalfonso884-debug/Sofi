@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para ti 🌻</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #FBE8D3, #F6D6B8);
+    font-family: 'Georgia', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.contenedor {
+    max-width: 750px;
+    padding: 40px 25px;
+    opacity: 0;
+    animation: aparecer 3.5s ease forwards;
+}
+
+.nombre {
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #7A5C3E;
+    letter-spacing: 3px;
+}
+
+img {
+    width: 260px;
+    max-width: 85%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #5A4634;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+    .nombre {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <div class="nombre">SOFI</div>
+
+    <img src="ramo.png" alt="Ramo de girasol">
+
+    <p>
+        Hoy recordé cuando íbamos en la combi y me preguntaste cómo eras.<br><br>
+        Creo que en ese momento no supe explicarlo bien, pero con el tiempo entendí algo: tu sonrisa es lo que más te define.<br><br>
+        Tiene esa mezcla de alegría, carisma y ternura que se nota incluso sin que digas nada.<br><br>
+        También es inteligencia y dedicación en la forma en que haces las cosas, y esa manera tan genuina en la que siempre estás para quienes quieres.<br><br>
+        Me gusta mucho verte feliz… porque cuando sonríes, todo alrededor se siente diferente.
+    </p>
+
+</div>
+
+</body>
+</html>
